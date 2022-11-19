@@ -1,0 +1,112 @@
+/* h1{
+    color:rgb(42, 42, 157);
+    text-align:center;
+
+}
+body{
+    background-image: url('photo1.jpeg');
+    background-size:cover;
+
+    background-repeat: no-repeat;
+    height: 50%;
+    
+
+}
+
+
+.overlay{
+    background: rgba(0,0,0,0.3);
+    
+} */
+/* p{
+    color:rgb(182, 165, 198);
+    font-size: larger;
+} */
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    text-align: center;
+}
+a{
+    color:black;
+
+}
+
+section a {
+
+    background-color:rgb(41, 40, 40);
+    color: antiquewhite;    
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+    border-radius: 12px;
+
+  }
+  
+section a:hover {
+
+    color:rgb(41, 40, 40); 
+    background-color:antiquewhite;
+}
+  
+*{
+    margin:0; padding:0;
+}
+
+header{
+    width: 100%; height: 100vh;
+    /* background-color: rgb(161, 46, 46); */
+    background-image: url('photo1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.5);
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+
+nav .mainmenu{
+    width: 40%;
+    display: flex; justify-content: space-around;
+}
+
+
+main{
+    width: 100%; height: 85vh;
+    display: flex; justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section h3{
+    letter-spacing: 3px; font-weight: 200;
+}
+
+section h1{
+    text-transform: uppercase;
+}
+/* section div{
+    
+} */
+
+.change_text{
+    font-size:xx-large;
+    animation:changeborder 10s infinite linear;
+    border: 7px solid rgb(92, 90, 90);
+    background-color: rgb(249, 248, 247);
+    padding-left: 5px;
+    padding-right:5px;
+}
+.logo{
+    padding-left: 20px;
+    font-size: x-large;
+    font-weight: 300;
+}

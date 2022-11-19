@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booker</title>
+        <link rel="stylesheet" href = "static/style.css" media = "screen" type="text/css" >
+
+    </head>
+    <body>
+        <h1>Booker Page</h1>
+        <h4><a href = "{{url_for('check')}}">Check Your Booking Status Here!</a></h4>
+        <form action = "{{url_for('booker')}}" method = "POST">
+            <p>BookerName</p>
+            <input type = "text" name ="bookername">
+            <p>CCAName</p>
+            <input type = "text" name ="ccaname">
+            <p>Date</p>
+            <input type ="date" name = "datee">
+            <p>Venue</p>
+            <input type = "text" name = "venue">
+            <p>Number of Photographers required</p>
+            <input type="text" name = "nop">
+            <br><br>
+            <input type = "submit">
+        </form>
+    </body>
+</html>

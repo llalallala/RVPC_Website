@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>HOME</title>
+<link rel="stylesheet" href = "static/style.css" media = "screen" type="text/css" >
+
+</head>
+<body>
+<header>
+
+    <nav>
+        <div class = "logo" <h3 style="color:white;">RVPC</h3></div>
+
+        <div class = "mainmenu">
+            <a href="https://www.facebook.com/rvphotographyclub/">Home</a>
+            <a href="https://www.facebook.com/rvphotographyclub/">About Us</a>
+            <a href="https://www.facebook.com/rvphotographyclub/">Contact Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class = "change_text"><b>RVPC BOOKING PAGE</b></div>
+            <p><i>Arrange Your Photography Services</i></p><br>
+
+            <div class="row">
+                <div class="column">
+                    <p class = "booker">
+                        <a href = "{{url_for('booker')}}">Booker</a>
+                    </p> 
+                </div>
+                <div class="column">
+                    <p class = "admin">
+                        <a href = "{{url_for('validation')}}">Admin</a>
+                    </p>  
+                </div>
+            </div>
+
+        </section>
+    </main>
+</header>
+</body>
+</html>
